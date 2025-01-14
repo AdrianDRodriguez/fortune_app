@@ -11,4 +11,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+  # HTTPIE            FILE NAME         METHOD
+  get "/fortune", controller: "my_examples", action: "your_fortune"
+  get "/lotto", controller: "my_examples", action: "lucky_numbers"
 end
